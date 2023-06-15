@@ -105,6 +105,4 @@ class Member_system extends PX_Controller {
 		$data['content'] = $this->load->view('frontend/member_system/riwayat',$data,true);
 		$this->load->view('frontend/index',$data);
 	}
-
-
 }
