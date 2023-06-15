@@ -110,7 +110,7 @@ CREATE TABLE `tbl_riwayat` (
   `jml` int(20) NOT NULL,
   `tgl_pinjam` datetime NOT NULL,
   `tgl_kembali` datetime NOT NULL,
-  `status` enum('0','1','2','') NOT NULL
+  `keterangan` enum('0','1','2','') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
