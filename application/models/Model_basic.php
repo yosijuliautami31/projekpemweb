@@ -3,7 +3,7 @@
 class Model_basic extends CI_Model {
 
 	public function __construct() {
-	public	parent::__construct();
+		parent::__construct();
 	}
 	function get_all_row($table){
 		$this->db->select($table.'.*');
