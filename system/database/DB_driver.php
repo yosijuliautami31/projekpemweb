@@ -362,7 +362,7 @@ abstract class CI_DB_driver {
 	 * @param	array	$params
 	 * @return	void
 	 */
-	public function __construct($params)
+	 function __construct($params)
 	{
 		if (is_array($params))
 		{
