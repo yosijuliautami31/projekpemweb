@@ -17,7 +17,7 @@ foreach (explode(PATH_SEPARATOR, get_include_path()) as $path)
 		require_once 'vfsStream/vfsStream.php';
 		break;
 	}
-}
+};
 
 if ( ! class_exists('vfsStream') && file_exists(PROJECT_BASE.'vendor/autoload.php'))
 {
