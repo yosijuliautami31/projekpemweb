@@ -169,7 +169,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>PINJAMKUY!</h2>
+          <h2>Portofolio</h2>
           <p></p>
         </div>
 
