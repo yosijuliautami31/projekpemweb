@@ -4,7 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends PX_Controller {
 	public function __construct() {
 			parent::__construct();
-
 		}
 
 	public function index(){
@@ -30,6 +29,4 @@ class Home extends PX_Controller {
 			$this->load->view('arsha/layout.php',$data);
 		}
 	}
-
-
 }
