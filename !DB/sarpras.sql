@@ -33,7 +33,7 @@ CREATE TABLE `tbl_barang` (
   `desc` text NOT NULL,
   `stock` int(10) NOT NULL,
   `status` enum('tampilkan','sembunyikan','','') NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
 
 
 
