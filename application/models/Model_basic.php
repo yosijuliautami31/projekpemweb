@@ -246,5 +246,4 @@ class Model_basic extends CI_Model {
 
     $this->db->insert('gambar', $data);
   }
-
 }
