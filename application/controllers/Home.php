@@ -6,6 +6,7 @@ class Home extends PX_Controller {
 			parent::__construct();
 		}
 
+	
 	public function index(){
 		$userdata_petugas = $this->session_petugas;
 		$userdata_peminjam = $this->session_peminjam;
