@@ -163,7 +163,6 @@
       </div>
     </section><!-- End Services Section -->
 
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
@@ -235,7 +234,6 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -279,8 +277,6 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-
-
     <div class="container footer-bottom clearfix">
       <div class="copyright">
         &copy;  <strong><span>PinjamKuy</span></strong>. 
@@ -297,7 +293,7 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+      
   <!-- Vendor JS Files -->
   <script src="<?php echo base_url('/assets/Arsha/');?>assets/vendor/aos/aos.js"></script>
   <script src="<?php echo base_url('/assets/Arsha/');?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -311,5 +307,4 @@
   <script src="<?php echo base_url('/assets/Arsha/');?>assets/js/main.js"></script>
 
 </body>
-
 </html>
