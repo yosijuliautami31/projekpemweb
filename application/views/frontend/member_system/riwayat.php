@@ -25,7 +25,7 @@
                           <th>Jumlah Pinjam</th>
                           <th>Tanggal Pinjam</th>
                           <th>Tanggal Kembali</th>
-                          <th>Status</th>
+                          <th>Keterangan</th>
                         </tr>
                       </thead>
                       <tbody>
