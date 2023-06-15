@@ -80,7 +80,5 @@ class Admin extends PX_Controller {
 		else
 			redirect('home');
 	}
-	
-
 
 }
