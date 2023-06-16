@@ -100,7 +100,7 @@ abstract class CI_DB_driver {
 	 * @used-by	CI_DB_pdo_driver
 	 * @var	string
 	 */
-	;
+	public $subdriver;
 
 	/**
 	 * Table prefix
