@@ -101,7 +101,7 @@
 				ignore: [],
 				rules: {
 					username: {
-						required: 
+						required: true
 					},
 					password: {
 						required: true
