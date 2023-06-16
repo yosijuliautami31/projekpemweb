@@ -31,7 +31,7 @@
                           <td><?php echo $d1->id_pinjam ?></td>
                           <td><?php echo $d1->name ?></td>
                           <td><?php echo $d1->jml ?></td>
-                          <td><?php echo $d1->tgl_pinjam ?></td>
+                          
                           <td class="text-center">
                             <?php if($d1->tgl_kembali == "0000-00-00 00:00:00") echo "N/A"; else echo $d1->tgl_kembali;?>
                           </td>
