@@ -198,7 +198,7 @@ $config['directory_trigger'] = 'd';
 |          for backwards compatibility purposes!
 |
 */
-$['allow_get_array'] = TRUE;
+$config['allow_get_array'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
