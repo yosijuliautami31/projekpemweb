@@ -243,7 +243,6 @@ class Model_basic extends CI_Model {
       'ukuran_file' => $upload['file']['file_size'],
       'tipe_file' => $upload['file']['file_type']
     );
-
     $this->db->insert('gambar', $data);
   }
 }
