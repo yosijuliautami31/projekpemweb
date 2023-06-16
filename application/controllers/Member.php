@@ -18,7 +18,7 @@ class Member extends PX_Controller {
 		if($this->session->userdata('peminjam') != FALSE){
 			redirect('member/dashboard');
 		}
-		else
+		
 			$this->load->view('frontend/member/login');
 	}
 
