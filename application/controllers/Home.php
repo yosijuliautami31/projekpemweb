@@ -19,7 +19,7 @@ class Home extends PX_Controller {
 		}elseif ($this->session->userdata('petugas') != FALSE && $this->session->userdata('peminjam') == FALSE) {
 			$data['logged_petugas'] = "Logged As Petugas -- ".$userdata_petugas['name'];
 			$data['logged_peminjam'] = "Login Peminjam";
-			$this->load->view('arsha/layout.php',$data);
+			$
 		}elseif ($this->session->userdata('petugas') == FALSE && $this->session->userdata('peminjam') != FALSE) {
 			$data['logged_petugas'] = "Login Petugas";
 			$data['logged_peminjam'] = "Logged As Peminjam -- ".$userdata_peminjam['name'];
