@@ -66,7 +66,7 @@ class Model_basic extends CI_Model {
 		$this->load->database('default',TRUE);
 		$this->db->select($select);
 		$this->db->from($table);
-		$this->db->join($table_join1, $join1.' = '.$);
+		$this->db->join($table_join1, $join1.' = '.$join2);
 		$this->db->join($table_join2, $join3.' = '.$join4);
 		$this->db->where($column,$where);
 		$data = $this->db->get();
