@@ -31,7 +31,7 @@ CREATE TABLE `tbl_barang` (
   `id_barang` int(10) NOT NULL,
   `name` varchar(50) NOT NULL,
   `desc` text NOT NULL,
-  `stock` int(10) NOT NULL,
+  
   `status` enum('tampilkan','sembunyikan','','') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
